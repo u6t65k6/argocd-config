@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: fastapi-deploy
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: fastapi
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: yillkid/docker-fastapi:v1
+          image: u6t65k6/docker-fastapi:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
