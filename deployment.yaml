@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: u6t65k6/docker-fastapi:52c5171ba8de0cb4388b6c52b49f0eb9428460cb
+          image: u6t65k6/docker-fastapi:df7322ee185e8aa329c6d0810f5398a3f97877a3
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
